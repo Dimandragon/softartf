@@ -1,0 +1,20 @@
+[package]
+name = "softartf"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+num-traits = "0.2.15"
+rustfft = "6.0.1"
+plotlib = "0.5.1"
+plotters = "0.3"
+softartf_enums = { path = "../softartf_enums" }
+
+
+[profile.dev]
+opt-level = 2
+
+[profile.release]
+opt-level = 3
