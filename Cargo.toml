@@ -1,0 +1,7 @@
+[workspace]
+
+members = [
+    "softartf",
+    "softartf_for_embedded",
+    "softartf_enums",
+]

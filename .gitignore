@@ -1,0 +1,11 @@
+.git
+.idea
+*/.idea
+*/target
+*.lock
+*.iml
+*.svg
+*.png
+.idea/*
+target
+target/*
